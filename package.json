@@ -1,0 +1,34 @@
+{
+  "name": "think-view-xtemplate",
+  "version": "1.0.0",
+  "description": "use xtemplate to render view files for ThinkJS 3.x",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizheming/think-view-xtemplate.git"
+  },
+  "keywords": [
+    "thinkjs3",
+    "view",
+    "xtemplate",
+    "think-adapter"
+  ],
+  "author": "lizheming <i@imnerd.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lizheming/think-view-xtemplate/issues"
+  },
+  "homepage": "https://github.com/lizheming/think-view-xtemplate#readme",
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-think": "^1.0.1"
+  },
+  "dependencies": {
+    "think-helper": "^1.0.12",
+    "xtpl": "^3.3.0"
+  }
+}
