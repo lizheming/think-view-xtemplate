@@ -11,6 +11,10 @@ module.exports = class {
   }
 
   render() {
+    if(think.isFunction(this.config.beforeRender)) {
+      this.config.beforeRender(xtpl, this.handleOptions);
+    }
+    
     return renderFile(this.viewFile, this.viewData, this.handleOptions);
   }
 };
