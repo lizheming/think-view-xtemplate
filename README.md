@@ -1,4 +1,6 @@
 # think-view-xtemplate
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/lizheming/think-view-xtemplate.svg)](https://greenkeeper.io/)
 Use nunjucks to render view files for ThinkJS 3.x
 
 ## Install
